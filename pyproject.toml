@@ -1,0 +1,9 @@
+[project]
+name = "helloapi"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.136.0,<0.137.0",
+    "pydantic>=2.13.2,<2.14.0",
+    "pydantic-settings>=2.13.1,<2.14.0",
+]
